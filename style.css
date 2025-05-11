@@ -1,0 +1,49 @@
+body {
+    background-color: #211C84;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  .container {
+    background-color: #B5A8D5;
+    width: min(500px, 90vw);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  h2 {
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 3px;
+  }
+  button {
+    background-color: #4D55CC;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  canvas {
+    background-color: #ffffff;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  input {
+    background-color: #4D55CC;
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    color: #ffffff;
+  }
+  input::placeholder {
+    color: #ffffff;
+  }
+  select {
+    outline: none;
+    padding: 15px;
+    background-color: #4D55CC;
+    color: #ffffff;
+  }
